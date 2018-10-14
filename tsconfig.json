@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "system",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "lib": ["esnext", "dom"],
+        "jsx": "react",
+        "jsxFactory": "Revol.createComponent",
+        "experimentalDecorators": true,
+        "outFile": "./dist/bundle.js"
+    },
+    "include": [
+        "./src/**/*.tsx",
+        "./src/**/*.ts",
+        "./tests/**/*.tsx",
+        "./tests/**/*.ts"
+    ]
+}
