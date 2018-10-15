@@ -8,10 +8,10 @@
         "jsx": "react",
         "jsxFactory": "Revol.createComponent",
         "experimentalDecorators": true,
-        "outFile": "./dist/bundle.js"
+        "outFile": "./dist/test.js"
     },
     "include": [
-        "./src/**/*.tsx",
-        "./src/**/*.ts"
+        "./tests/**/*.tsx",
+        "./tests/**/*.ts"
     ]
 }

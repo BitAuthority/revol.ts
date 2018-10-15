@@ -1,5 +1,5 @@
-import { Component, ComponentOptions } from '../src/component/component';
-import { RevolElement } from '../src/revol';
+import { Component, ComponentOptions } from '../../src/component/component';
+import { RevolElement } from '../../src/revol';
 
 @ComponentOptions({
     elementTag: 'idk'
