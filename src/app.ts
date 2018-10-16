@@ -1,5 +1,5 @@
 import { Injectable, InjectableArray } from "./injectable";
-import { IStaticComponent, getComponentByTag, Component, getComponentByHTMLElement } from "./component/component";
+import { Component, getComponentByHTMLElement } from "./component/component";
 import { RevolElement } from "./revol";
 
 interface IAppOptions {

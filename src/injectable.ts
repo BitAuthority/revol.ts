@@ -1,5 +1,3 @@
-import App from './main';
-
 export const injectables: Injectable[] = [];
 
 export enum InjectableType {
@@ -15,7 +13,7 @@ export interface Injectable {
 function Injectable(type: InjectableType, name: string) {
     return function<T extends {new(...args:any[]):{}}>(constructor: T) {
         injectables.push({
-            name: '@' + name, data: (type == InjectableType.SINGLETON ? new constructor(App) : constructor)
+            name: '@' + name, data: (type == InjectableType.SINGLETON ? new constructor() : constructor)
         });
     }
 }
