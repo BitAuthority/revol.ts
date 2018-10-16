@@ -14,7 +14,7 @@ export interface IApp {
     render(): void;
 }
 
-export default function App(options: IAppOptions) {
+export function App(options: IAppOptions) {
     return function<T extends {new(...args:any[]):{}}>(constructor: T) {
         return class implements IApp {
             run = (...array: any[]) => new InjectableArray(array).call();
@@ -33,3 +33,5 @@ export default function App(options: IAppOptions) {
         }
     }
 }
+
+export default App;

@@ -1,3 +1,8 @@
+export { Component, ComponentOptions, rerender } from './component/component';
+export { onInit, onDestroy } from './component/interfaces';
+export { Binding, Singleton } from './injectable';
+export { App, IApp } from './app';
+
 import { getComponentByTag, IStaticComponent, Component, componentInstances } from "./component/component";
 
 export default class Revol {

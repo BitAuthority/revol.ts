@@ -5,3 +5,7 @@ export interface IComponentOptions {
 export interface onInit {
     onInit(): void;
 }
+
+export interface onDestroy {
+    onDestroy(): void;
+}

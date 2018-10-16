@@ -1,0 +1,21 @@
+{
+  "name": "@evolutionmedia/revolts",
+  "version": "1.0.4",
+  "description": "A very simple front end framework.",
+  "main": "dist/revol.js",
+  "types": "dist/revol.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eVolution-Media/revol.ts.git"
+  },
+  "keywords": [
+    "frontend"
+  ],
+  "author": "BitAuthority",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eVolution-Media/revol.ts/issues"
+  },
+  "homepage": "https://github.com/eVolution-Media/revol.ts#readme"
+}

@@ -1,14 +1,14 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "module": "system",
+        "module": "commonjs",
         "noImplicitAny": false,
         "removeComments": true,
         "lib": ["esnext", "dom"],
         "jsx": "react",
         "jsxFactory": "Revol.createComponent",
         "experimentalDecorators": true,
-        "outFile": "./dist/index.js",
+        "outDir": "./dist",
         "declaration": true
     },
     "include": [
